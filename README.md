@@ -1,4 +1,4 @@
-# Monte Carlo Option Pricing (Black-Scholes Benchmark)
+# Monte Carlo Option Pricing 
 
 ### Overview
 
