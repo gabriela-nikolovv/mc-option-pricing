@@ -11,7 +11,7 @@ r = 0.03              # Risk-free rate
 sigma = 0.25          # Volatility
 T = 1.0               # Time to maturity years
 steps = 252           # Time steps for GBM
-paths = 20            # Number of MC paths
+paths = 10000         # Number of MC paths
 option_type = "call"  # "call" or "put"
 
 gbm_paths = generate_gbm_paths(S0, r, sigma, T, steps, paths, seed=42)
